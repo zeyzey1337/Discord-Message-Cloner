@@ -1,0 +1,217 @@
+# Discord Mesaj Transfer Programı - Kullanım Kılavuzu
+
+Merhaba! Bu program, bir Discord sunucusundaki mesajları başka bir sunucuya aktarmanıza yardımcı olur. Adım adım nasıl kullanacağınızı anlatalım.
+
+---
+
+## ⚠️ Önemli Notlar
+
+**Mesajlar neden tek tek ve yavaş aktarılıyor?**
+
+- **Discord'un güvenlik sistemi nedeniyle** mesajları hızlı gönderemiyoruz.
+- Her mesajı **tek tek** göndermek zorundayız.
+- Transfer hızı **internet bağlantınıza** ve **Discord limitlerine** bağlıdır.
+- Programın **banlanmaması** için belirli aralıklarla mesaj göndermeliyiz.
+
+---
+
+## 1️. İlk Adımlar
+
+### A. Bot Oluşturma
+
+1. **Discord Developer Portal**'a gidin: https://discord.com/developers/applications
+2. Sağ üstteki **"New Application"** butonuna tıklayın.
+3. Bir isim verin (örneğin: **"Mesaj Transfer"**).
+4. Sol menüden **"Bot"** sekmesine tıklayın.
+5. **"Add Bot"** butonuna basın ve onaylayın.
+6. **"Reset Token"** diyerek bot tokeninizi alın ve güvenli bir yere kaydedin.
+7. **"Privileged Gateway Intents"** bölümündeki tüm seçenekleri aktif edin.
+8. Sol menüden **"OAuth2" > "URL Generator"** sekmesine gidin.
+9. **Scopes** kısmından **"bot"** seçeneğini işaretleyin.
+10. **Bot Permissions** bölümünden **"Administrator"** iznini verin.
+11. Aşağıda oluşan linki kopyalayıp yeni bir tarayıcı sekmesinde açın ve botunuzu sunucunuza ekleyin.
+
+### B. Kullanıcı Tokenini Alma
+
+1. **Discord**'u **Google Chrome** tarayıcısında açın.
+2. Discord hesabınıza giriş yapın.
+3. **F12** tuşuna basarak geliştirici konsolunu açın.
+4. Üstteki **"Console"** sekmesine tıklayın.
+5. Aşağıdaki kodu konsola yapıştırın ve **Enter** tuşuna basın:
+
+```javascript
+(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
+```
+
+6. Çıkan kullanıcı tokeninizi güvenli bir yere kaydedin.
+
+---
+
+## 2️. Programı Kullanma
+
+1. İndirdiğiniz klasördeki **"setup.bat"** dosyasını çalıştırın (ilk kullanımda).
+2. Ardından **"DiscordTransfer.exe"** dosyasını çalıştırın.
+
+Program sizden sırasıyla aşağıdaki bilgileri isteyecektir:
+
+1. **Kullanıcı tokeninizi** girin (az önce aldığınız).
+2. **Resim/video aktarmak istiyor musunuz?** (E/H)
+   - **"E"** derseniz medya dosyaları da aktarılır (daha uzun sürer).
+   - **"H"** derseniz sadece mesajlar aktarılır (daha hızlı biter).
+3. **Hız seçin** (1-2-3)
+   - **1**: Yavaş ama güvenli.
+   - **2**: Normal hız.
+   - **3**: Hızlı ama rate limit riski var.
+4. Mesajları alacağınız **kaynak sunucunun ID'sini** girin.
+5. **Bot tokeninizi** yazın (Discord Developer Portal'dan aldığınız).
+6. Mesajları atacağınız **hedef sunucunun ID'sini** girin.
+
+### Sunucu ID'si Nasıl Alınır?
+
+1. Discord ayarlarından **"Gelişmiş"** bölümüne gidin.
+2. **"Geliştirici Modu"** seçeneğini aktif edin.
+3. Sunucuya sağ tıklayıp **"ID'yi Kopyala"** seçeneğine tıklayın.
+
+---
+
+## ❓ Sorun Yaşarsanız
+
+1. **Program açılmazsa:**
+   - Antivirüs programınızı geçici olarak devre dışı bırakın.
+   - **"setup.bat"** dosyasını tekrar çalıştırın.
+   - Programı **yönetici olarak** çalıştırmayı deneyin.
+
+2. **Token hatası alırsanız:**
+   - Discord'da oturumu kapatıp tekrar açın ve yeni bir token alın.
+   - Bot tokeninizin doğru olduğundan emin olun.
+
+3. **Bot sunucuda görünmüyorsa:**
+   - Davet linkini tekrar kullanarak botu yeniden ekleyin.
+   - Botun **yönetici izni** olduğundan emin olun.
+
+---
+
+## 📞 Yardım ve İletişim
+
+Herhangi bir sorun yaşarsanız veya yardıma ihtiyacınız olursa:
+
+- **Discord:** zeywx
+
+---
+
+## ⚠️ Güvenlik Uyarısı
+
+- **Tokenlerinizi kimseyle paylaşmayın!**
+- Programı sadece **kendi sunucularınızda** kullanın.
+- Botunuza **yönetici izni** verdiğinizden emin olun.
+
+---
+
+# Discord Message Transfer Program - User Guide
+
+Hello! This program helps you transfer messages from one Discord server to another. Let's go through how to use it step by step.
+
+---
+
+## ⚠️ Important Notes
+
+**Why are messages transferred one by one and slowly?**
+
+- Due to **Discord's security system**, we cannot send messages quickly.
+- We have to send each message **individually**.
+- Transfer speed depends on your **internet connection** and **Discord limits**.
+- To avoid **getting banned**, we must send messages at certain intervals.
+
+---
+
+## 1️. Getting Started
+
+### A. Creating a Bot
+
+1. Go to the **Discord Developer Portal**: https://discord.com/developers/applications
+2. Click the **"New Application"** button at the top right.
+3. Give it a name (e.g., **"Message Transfer"**).
+4. In the left menu, click on the **"Bot"** tab.
+5. Click **"Add Bot"** and confirm.
+6. Click **"Reset Token"** to get your bot token and save it securely.
+7. Enable all options under **"Privileged Gateway Intents"**.
+8. In the left menu, go to **"OAuth2" > "URL Generator"**.
+9. Under **Scopes**, select **"bot"**.
+10. In **Bot Permissions**, grant the **"Administrator"** permission.
+11. Copy the generated link below, open it in a new browser tab, and add the bot to your server.
+
+### B. Obtaining Your User Token
+
+1. Open **Discord** in **Google Chrome**.
+2. Log in to your Discord account.
+3. Press **F12** to open the developer console.
+4. Click on the **"Console"** tab at the top.
+5. Paste the following code into the console and press **Enter**:
+
+
+(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
+
+
+6. Save the displayed user token securely.
+
+---
+
+## 2️. Using the Program
+
+1. Run the **"setup.bat"** file in the downloaded folder (on first use).
+2. Then, run the **"DiscordTransfer.exe"** file.
+
+The program will ask you for the following information in order:
+
+1. Enter your **user token** (the one you just obtained).
+2. **Do you want to transfer images/videos?** (Y/N)
+   - If you choose **"Y"**, media files will also be transferred (takes longer).
+   - If you choose **"N"**, only messages will be transferred (faster).
+3. **Select speed** (1-2-3)
+   - **1**: Slow but safe.
+   - **2**: Normal speed.
+   - **3**: Fast but with rate limit risk.
+4. Enter the **ID of the source server** from which you want to get messages.
+5. Enter your **bot token** (obtained from the Discord Developer Portal).
+6. Enter the **ID of the target server** where you want to send messages.
+
+### How to Get a Server ID
+
+1. Go to **"Advanced"** in Discord settings.
+2. Enable the **"Developer Mode"** option.
+3. Right-click on the server and select **"Copy ID"**.
+
+---
+
+## ❓ If You Encounter Issues
+
+1. **If the program doesn't open:**
+   - Temporarily disable your antivirus software.
+   - Run the **"setup.bat"** file again.
+   - Try running the program as an **administrator**.
+
+2. **If you get a token error:**
+   - Log out and back into Discord to obtain a new token.
+   - Ensure your bot token is correct.
+
+3. **If the bot doesn't appear in the server:**
+   - Use the invite link again to re-add the bot.
+   - Ensure the bot has **administrator permissions**.
+
+---
+
+## 📞 Help and Contact
+
+If you experience any issues or need assistance:
+
+- **Discord:** zeywx
+
+---
+
+## ⚠️ Security Warning
+
+- **Do not share your tokens with anyone!**
+- Use the program only on **your own servers**.
+- Make sure your bot has **administrator permissions**.
+
+---

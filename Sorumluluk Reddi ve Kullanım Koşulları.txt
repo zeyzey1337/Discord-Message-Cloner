@@ -1,0 +1,38 @@
+Sorumluluk Reddi ve Kullanım Koşulları
+1. Eğitim ve Eğlence Amacı
+
+Bu program, yalnızca eğlence ve eğitim amaçlı olarak geliştirilmiştir. Amacı, kullanıcıların teknik becerilerini geliştirmelerine ve yazılımın çalışma prensiplerini anlamalarına yardımcı olmaktır.
+
+2. Sorumluluk Reddi
+
+2.1. Bu program "olduğu gibi" sağlanmaktadır ve herhangi bir garanti verilmemektedir. Programın kullanımı sonucunda ortaya çıkabilecek doğrudan veya dolaylı hiçbir zarardan zeywx sorumlu tutulamaz.
+2.2. zeywx, programın kesintisiz, hatasız veya güvenli olacağını garanti etmez. Programın kullanımı sırasında oluşabilecek veri kaybı, sistem arızaları veya diğer problemlerden kullanıcı sorumludur.
+3. Kullanıcı Sorumlulukları
+
+3.1. Kullanıcılar, programı kendi riskleri ve sorumlulukları dahilinde kullanmayı kabul ederler.
+3.2. Kullanıcılar, programın kullanımından kaynaklanabilecek her türlü yasal yükümlülükten sorumludur.
+4. Yasal Uyum
+
+4.1. Kullanıcılar, programı kullanırken yürürlükteki tüm yerel, ulusal ve uluslararası yasalara, yönetmeliklere ve düzenlemelere uymayı kabul ederler.
+4.2. Kullanıcılar, Discord'un Kullanım Şartları ve Topluluk Kuralları başta olmak üzere tüm politikalarına uymayı taahhüt ederler.
+5. Üçüncü Taraf Hizmetler ve İçerik
+
+5.1. Bu program, üçüncü taraf hizmetler ve içeriklerle etkileşimde bulunabilir. Bu tür hizmetlerin ve içeriklerin kullanımı, ilgili üçüncü tarafın kendi kullanım şartları ve politikalarına tabidir.
+5.2. zeywx, üçüncü taraf hizmetlerin veya içeriklerin doğruluğu, güvenilirliği veya kullanılabilirliği konusunda herhangi bir sorumluluk kabul etmez.
+6. Değişiklik Hakkı
+
+6.1. zeywx, program üzerinde önceden bildirimde bulunmaksızın değişiklik yapma, güncelleme veya programı geri çekme hakkını saklı tutar.
+7. Son Kullanıcı Lisans Anlaşması (EULA)
+
+7.1. Bu program, kişisel ve ticari olmayan kullanım için lisanslanmıştır.
+7.2. Programın yeniden dağıtılması, satılması veya değiştirilmesi yasaktır.
+8. Tazminat
+
+8.1. Kullanıcılar, bu kullanım koşullarının ihlali veya programın yasa dışı kullanımı nedeniyle ortaya çıkabilecek her türlü iddia, zarar veya masraftan zeywx'i tazmin etmeyi kabul ederler.
+9. Uygulanacak Hukuk ve Yargı Yetkisi
+
+9.1. Bu kullanım koşulları, yürürlükteki yerel ve uluslararası yasalara tabidir.
+9.2. Taraflar arasında doğabilecek uyuşmazlıklarda yetkili mahkemeler ve icra daireleri, zeywx'in ikamet ettiği yer mahkemeleri ve icra daireleridir.
+10. İletişim
+
+Herhangi bir soru veya geri bildirim için lütfen zeywx ile iletişime geçin.

@@ -1,0 +1,38 @@
+1. Purpose of Education and Entertainment
+
+This program is developed solely for entertainment and educational purposes. It aims to help users enhance their technical skills and understand the working principles of the software.
+
+2. Disclaimer of Liability
+
+2.1. This program is provided "as is" without any warranties. zeywx shall not be held liable for any direct or indirect damages resulting from the use of this program.
+2.2. zeywx does not guarantee that the program will be uninterrupted, error-free, or secure. Users are responsible for any data loss, system failures, or other issues arising from the use of the program.
+3. User Responsibilities
+
+3.1. Users agree to use the program at their own risk and responsibility.
+3.2. Users are responsible for any legal obligations arising from the use of the program.
+4. Legal Compliance
+
+4.1. Users agree to comply with all applicable local, national, and international laws, regulations, and ordinances while using the program.
+4.2. Users must adhere to Discord's Terms of Service and Community Guidelines.
+5. Third-Party Services and Content
+
+5.1. This program may interact with third-party services and content. Use of such services and content is subject to the respective third party's terms and policies.
+5.2. zeywx assumes no responsibility for the accuracy, reliability, or availability of third-party services or content.
+6. Right to Modify
+
+6.1. zeywx reserves the right to modify, update, or discontinue the program at any time without prior notice.
+7. End-User License Agreement (EULA)
+
+7.1. This program is licensed for personal and non-commercial use only.
+7.2. Redistribution, sale, or modification of the program is prohibited.
+8. Indemnification
+
+8.1. Users agree to indemnify and hold harmless zeywx from any claims, damages, or expenses arising from the violation of these terms or illegal use of the program.
+9. Governing Law and Jurisdiction
+
+9.1. These terms are governed by the applicable local and international laws.
+9.2. Any disputes shall be subject to the exclusive jurisdiction of the courts where zeywx resides.
+10. Contact Information
+
+For any questions or feedback, please contact zeywx.
+
